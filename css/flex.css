@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: 1;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.card__status {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__discount-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card__purchase {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.card__tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
